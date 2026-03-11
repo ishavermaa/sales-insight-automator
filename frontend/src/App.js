@@ -25,7 +25,7 @@ function App() {
       setSummary("");
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/upload",
+        "https://sales-insight-automator-api-o6s0.onrender.com/upload",
         formData,
         {
           headers: {
